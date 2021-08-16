@@ -1,10 +1,36 @@
-/*directions to use this code:
-
-on the command line do the following: 
-
-1. npm install twitter
-
-2. npm install --save node-spotify-api
-
-
-*/
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "command line app. takes commands. returns data from twitter, spotify, and IMDB",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussellBrookman/liri-node-app.git"
+  },
+  "keywords": [
+    "siri",
+    "twitter",
+    "spotify",
+    "request",
+    "social",
+    "information"
+  ],
+  "author": "Russell_Brookman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RussellBrookman/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/RussellBrookman/liri-node-app#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "ajax-request": "^1.2.3",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1",
+    "twit": "^2.2.9"
+  }
+}
